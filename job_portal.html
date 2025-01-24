@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #0056b3;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon {
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .auth-buttons .login-btn,
+        .auth-buttons .post-job-btn {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .auth-buttons .post-job-btn {
+            background-color: #00cc66;
+        }
+
+        .auth-buttons .post-job-btn:hover {
+            background-color: #00994d;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #0066cc, #00ccff);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+        }
+
+        .hero .container {
+            z-index: 2;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .upload-resume-btn {
+            padding: 12px 20px;
+            background-color: #00cc66;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .upload-resume-btn:hover {
+            background-color: #00994d;
+        }
+
+        /* Search Bar Section */
+        .search-bar {
+            background-color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-bar .container {
+            display: flex;
+            gap: 10px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .search-bar input,
+        .search-bar select {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search-bar button:hover {
+            background-color: #003d80;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🔍</span>
+                <span>Job Board</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Browse Job</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Log In</a>
+                <a href="#" class="post-job-btn">Post A Job</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>4536+ Jobs listed</h1>
+            <h2>Find your Dream Job</h2>
+            <p>We provide online instant cash loans with quick approval that suit your term length.</p>
+            <a href="#" class="upload-resume-btn">Upload Your Resume</a>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-bar">
+        <div class="container">
+            <input type="text" placeholder="Search keyword">
+            <input type="text" placeholder="Location">
+            <select>
+                <option>Category</option>
+                <option>IT</option>
+                <option>Finance</option>
+                <option>Marketing</option>
+            </select>
+            <button>Find Job</button>
+        </div>
+    </section>
+</body>
+</html>
