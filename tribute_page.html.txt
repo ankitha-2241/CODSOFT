@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Indira Gandhi</title>
+        .container img {
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: #ffffff;
+            margin: 30px auto;
+            max-width: 850px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            border: 2px solid #ff6f61;
+        }
+
+            border-radius: 15px;
+            width: 220px;
+            height: auto;
+            margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            padding: 20px;
+            line-height: 1.8;
+            text-align: left;
+            background-color: #ffe6e1;
+            border-radius: 10px;
+            box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #444;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1em;
+            color: #ffffff;
+            background-color: #ff6f61;
+            padding: 10px;
+            border-top: 2px solid #f44336;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Indira Gandhi</h1>
+    <img src="https://i.pinimg.com/1200x/40/a5/0e/40a50eadbc02f7b2f6866ca5b95db18b.jpg" alt="Indira Gandhi">
+    <h2>November 19, 1917 - October 31, 1984</h2>
+    <div class="content">
+        <p><strong>Indira Gandhi</strong> was India’s first and only female Prime Minister, known for her strong leadership and indomitable spirit. She served the nation with unparalleled determination and left a profound impact on the history and development of India.</p>
+
+        <h3>Her Vision and Leadership</h3>
+        <ul>
+            <li>Introduced the <strong>Green Revolution</strong>, ensuring self-sufficiency in food production.</li>
+            <li>Played a crucial role in the <strong>liberation of Bangladesh</strong> during the 1971 war.</li>
+            <li>Promoted industrial growth and technological advancements.</li>
+        </ul>
+
+        <h3>Her Qualities</h3>
+        <ul>
+            <li><strong>Fearless:</strong> Took bold decisions in the face of challenges.</li>
+            <li><strong>Resilient:</strong> Remained steadfast during political and personal adversities.</li>
+            <li><strong>Inspirational:</strong> Motivated millions with her vision for a united and prosperous India.</li>
+        </ul>
+
+        <h3>Legacy</h3>
+        <ul>
+            <li>Launched the nuclear program, establishing India as a nuclear power.</li>
+            <li>Strengthened India’s position on the global stage through diplomatic initiatives.</li>
+            <li>Championed the nationalization of banks, expanding financial inclusion.</li>
+            <li>Supported the space program, laying the groundwork for ISRO’s future successes.</li>
+            <li>Empowered women and marginalized communities through progressive policies.</li>
+        </ul>
+
+        <h3>Courageous Acts and Their Impact</h3>
+        <p>Indira Gandhi’s bold decisions reshaped the nation’s destiny. Her leadership during the 1971 war not only led to the creation of Bangladesh but also showcased India’s military strength and humanitarian spirit. The Green Revolution she championed transformed India from a food-deficient nation to a self-sufficient one, drastically reducing hunger and poverty.</p>
+        <p>Her policies of nationalization brought economic stability and accessibility for millions. The Emergency period remains controversial, but her resilience during crises demonstrated her commitment to preserving India’s unity. Her legacy is a testament to the profound changes she brought to the country’s social, economic, and political fabric.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 Tribute to Indira Gandhi</p>
+</div>
+
+</body>
+</html>
